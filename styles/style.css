@@ -129,13 +129,40 @@ body {
     display: none;
   }
 }
+
 @media (max-width: 770px) {
   .kanye {
     background-image: none;
   }
 }
-@media (max-width: 390px) {
-  .kanye-text {
-    padding-left: 300px;
+@media (max-width: 390px){
+  .nav-links{
+    display: none;
   }
 }
+@media (max-width: 390px) {
+  .title-text {
+    width: 200px;
+    font-size: medium;
+  }
+@media (max-width: 390px) {
+  .kanye-text {
+    padding: 0%;
+    padding-bottom: 60%;
+    margin-left: -30px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
+  @media (max-width: 390px) {
+.kanye {
+    background-image: url(/images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 100px;
+    background-position: bottom center;
+    background-origin:content-box; 
+}
+  }
