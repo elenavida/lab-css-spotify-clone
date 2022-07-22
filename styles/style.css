@@ -114,3 +114,28 @@ body {
   display: inline-block;
   border-bottom: 3px solid white;
 }
+@media (max-width: 770px) {
+  .whats-on-features {
+    flex-direction: column;
+  }
+}
+@media (max-width: 770px) {
+  .title-text {
+    width: 400px;
+  }
+}
+@media (max-width: 770px) {
+  .kanye-img {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  .kanye {
+    background-image: none;
+  }
+}
+@media (max-width: 390px) {
+  .kanye-text {
+    padding-left: 300px;
+  }
+}
